@@ -1,6 +1,6 @@
 use std::{thread, time::Duration};
 
-use crate::puzzle9::*;
+use crate::puzzle10::*;
 
 mod puzzle1;
 mod puzzle2;
@@ -11,6 +11,7 @@ mod puzzle6;
 mod puzzle7;
 mod puzzle8;
 mod puzzle9;
+mod puzzle10;
 
 fn main() {
     println!("START");
