@@ -1,6 +1,6 @@
 use std::{thread, time::Duration};
 
-use crate::puzzle11_2::*;
+use crate::puzzle12::*;
 
 mod puzzle1;
 mod puzzle2;
@@ -14,11 +14,12 @@ mod puzzle9;
 mod puzzle10;
 mod puzzle11;
 mod puzzle11_2;
+mod puzzle12;
 
 fn main() {
     println!("START");
 
-    let result = solution();
+    let result = solution2();
     println!("Result: {:?}", result);
 
     //fix for VSCode
